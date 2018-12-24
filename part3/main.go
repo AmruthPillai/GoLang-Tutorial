@@ -23,8 +23,8 @@ func main() {
 	fmt.Println(concat(w1, w2))
 
 	// Type Conversion
-	var a int = 62
-	var b float64 = float64(a)
+	var a = 62
+	var b = float64(a)
 	fmt.Println("Value of B:", b)
 
 	// Type Inference, Value Copy
