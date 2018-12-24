@@ -11,6 +11,7 @@ type SitemapIndex struct {
 	Locations []string `xml:"sitemap>loc"`
 }
 
+// News - News Structure
 type News struct {
 	Titles    []string `xml:"url>news>title"`
 	Keywords  []string `xml:"url>news>keywords"`
